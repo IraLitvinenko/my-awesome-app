@@ -1,0 +1,36 @@
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.weather_app {
+  display: block;
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  background-color: #ffddd2;
+}
+.add_icon {
+  font-size: 3em;
+  color: #a3c7d6;
+}
+.main_icon {
+  font-size: 5em;
+  color: yellow;
+}
+.sunny {
+  color: yellow;
+}
+ul {
+  list-style-type: none;
+}
+#buttonCurrent {
+  background-color: green;
+  border-color: green;
+}
