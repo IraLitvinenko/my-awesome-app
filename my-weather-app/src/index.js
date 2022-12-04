@@ -56,7 +56,7 @@ function myCity(event) {
 let search = document.querySelector("#search-form");
 search.addEventListener("submit", myCity);
 
-function showCurrentTemperature(response) {
+/*function showCurrentTemperature(response) {
   console.log(Math.round(response.data.main.temp));
   let myWeather = Math.round(response.data.main.temp);
   let currentTemperature = document.querySelector("#currentTemperature");
@@ -86,4 +86,4 @@ function showPosition(position) {
 
 let current = document.querySelector("#search-form");
 current.addEventListener("submit2", showPosition);
-navigator.geolocation.getCurrentPosition(showPosition);
+navigator.geolocation.getCurrentPosition(showPosition);*/
